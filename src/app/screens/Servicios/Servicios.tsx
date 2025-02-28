@@ -212,12 +212,12 @@ export const Servicios = () => {
                 showTooltip={true}
                 displayOverlayContent={true}
                 overlayContent={
-                  <p className="font-bold text-[.4rem] md:text-xs xl:text-lg">{servicio.title}</p>
+                  <p className="font-bold text-[.4rem] md:text-xs 2xl:text-sm">{servicio.title}</p>
                 }
               />
               <p
                 id={`description-${index}`} // Asignamos un ID único al <p>
-                className="absolute text-white xl:font-bold text-[.5rem] md:text-sm xl:text-lg pointer-events-none transition-all duration-500 md:pl-5 transform -z-10 w-[50vw] xl:w-[30vw] text-center md:text-left"
+                className="absolute text-white xl:font-bold text-[.5rem] md:text-sm 2xl:text-lg pointer-events-none transition-all duration-500 md:pl-5 transform -z-10 w-[50vw] xl:w-[30vw] text-center md:text-left"
                 style={{
                   filter: movPicksToSeeDescrption.x
                     ? "blur(0px) grayscale(1)"
