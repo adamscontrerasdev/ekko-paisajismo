@@ -60,7 +60,7 @@ export const Inicio = () => {
               transform: `translate(0, calc(-50% + ${smoothScroll}px))`,
             }}
           >
-            Diseñamos espacios para conectarte con la naturaleza
+            Hello world
           </h1>
         ) : (
           <h1
@@ -69,7 +69,7 @@ export const Inicio = () => {
               transform: `translate(-50%, calc(-50% + ${smoothScroll}px))`,
             }}
           >
-            Diseñamos espacios para conectarte con la naturaleza
+            Hello world
           </h1>
         )}
 
