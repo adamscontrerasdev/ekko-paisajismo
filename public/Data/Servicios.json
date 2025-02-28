@@ -1,0 +1,40 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "title": "Diseño y Planificación del Paisaje",
+      "description": "El diseño del paisaje es un proceso creativo que implica la planificación y creación de un espacio exterior atractivo y funcional, que se elabora a partir de la evaluación y el análisis de los recursos naturales y culturales, que se unen a las necesidades y deseos del cliente. Mediante algunos encuentros (presenciales o virtuales), establecemos objetivos y necesidades, analizamos el lugar y sus características y diseñamos el espacio: distribución, accesos, áreas, iluminación, etc., apoyándonos en croquis, dibujos, planos y material fotográfico.Realizamos la selección de plantas  y materiales constructivos y planificamos el futuro mantenimiento del trabajo realizado.",
+      "image": "/img/Servicios/pexels-photo-8470829.png"
+    },
+    {
+      "id": 2,
+      "title": "Recuperación de áreas verdes",
+      "description": "La recuperación de áreas verdes requiere de un enfoque holístico que aborde los problemas del espacio en su conjunto. Puede involucrar el mejoramiento y la aireación del suelo, el reemplazo o recuperación de la carpeta de césped, técnicas de compostaje y fertilización, plantación o tratamientos fitosanitarios para que las plantas vuelvan a estar saludables. La idea es que el espacio vuelva a tener la armonía y la belleza para que podamos disfrutarlo a pleno.",
+      "image": "/Img/Servicios/696312_c868bd5192aa44af98605e74a.png"
+    },
+    {
+      "id": 3,
+      "title": "Podas | Limpiezas | Mantenimiento",
+      "description": "Las podas de limpieza son una práctica común en el cuidado y mantenimiento de árboles y plantas. Estas podas tienen como objetivo eliminar ramas y hojas muertas, dañadas o enfermas, ramas que estén entrecruzadas o en una dirección no deseada. Las podas de limpieza no solo mejoran la apariencia de la planta o árbol, sino que también pueden prevenir problemas futuros como la propagación de enfermedades o la obstrucción de la luz y el aire. Es importante conocer las necesidades específicas de cada planta y utilizar herramientas adecuadas para realizar la poda de manera segura y efectiva.",
+      "image": "/Img/Servicios/mantenimiento.png"
+    },
+    {
+      "id": 4,
+      "title": "Manejo Integral de Plagas",
+      "description": "El tratamiento fitosanitario en las plantas es un conjunto de prácticas y técnicas destinadas a proteger las plantas de enfermedades, plagas y otros agentes nocivos para su salud. Estas prácticas pueden ser preventivas o curativas, y pueden incluir el uso de productos químicos, biológicos o culturales.Las prácticas curativas incluyen el uso de productos químicos, como pesticidas y fungicidas, para controlar plagas y enfermedades, así como el uso de productos biológicos, como microorganismos benéficos y depredadores naturales, para combatir plagas y enfermedades.",
+      "image": "/Img/Servicios/plagas.png"
+    },
+    {
+      "id": 5,
+      "title": "Instalación de Césped",
+      "description": "La instalación del césped es un proceso que requiere paciencia y cuidado, en la que se deben seguir una serie de pasos: la preparación del terreno, la selección más adecuada del césped, preparación del suelo (abono y fertilización), instalación y riego.",
+      "image": "/Img/Servicios/cesped3.png"
+    },
+    {
+      "id": 6,
+      "title": "Sistema de Riego",
+      "description": "El riego en jardines es fundamental para mantener la salud y el aspecto de las plantas y el césped. Los sistemas de riego más eficientes son los aspersores o el riego por goteo, agua. También se puede considerar y planificar la posibilidad de recolectar el agua de lluvia.",
+      "image": "/Img/Servicios/riego2.png"
+    }
+  ]
+}
