@@ -3,13 +3,11 @@ import React, { useState, useRef, useEffect } from "react";
 import Data from "../../../../public/Data/Servicios.json";
 import TiltedCard from "./TitledCard";
 import { useIsMobile } from "@/app/Elements/Hooks/ScreenSizeContext";
-import { usePathname } from "next/navigation";
 
 export const Servicios = () => {
   const { screenSize } = useIsMobile();
   const servicios = Data.servicios;
   const [focused, setFocused] = useState<string | null>(null);
-  const hash = window.location.hash;
   const [offsets, setOffsets] = useState<{
     [key: string]: { x: number; y: number };
   }>({});
