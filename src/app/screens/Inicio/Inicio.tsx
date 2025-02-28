@@ -60,17 +60,17 @@ export const Inicio = () => {
               transform: `translate(0, calc(-50% + ${smoothScroll}px))`,
             }}
           >
-            Hello world
-          </h1>
+            Diseñamos espacios para conectárte con la naturaleza
+            </h1>
         ) : (
-          <h1
+            <h1
             className="z-20 absolute top-1/2 left-[35%] md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white"
             style={{
               transform: `translate(-50%, calc(-50% + ${smoothScroll}px))`,
             }}
-          >
-            Hello world
-          </h1>
+            >
+            Diseñamos espacios para conectárte con la naturaleza
+            </h1>
         )}
 
         <div

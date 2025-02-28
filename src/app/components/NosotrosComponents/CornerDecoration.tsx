@@ -45,7 +45,7 @@ export const CornerDecoration: React.FC<CornerDecorationProps> = ({ fatherRef })
         }}
       ></div>
       <Image
-        src="/img/matas-ekko.png"
+        src="/Img/matas-ekko.png"
         alt="nosotros"
         width={760}
         height={636}
