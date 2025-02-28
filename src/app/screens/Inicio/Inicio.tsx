@@ -36,6 +36,7 @@ export const Inicio = () => {
   return (
     <div
       className="relative h-[170vh] md:h-[200vh] overflow-hidden"
+      id="inicio"
       style={{
         background: "linear-gradient(to right, #C9C1B6, #E5E2DD, #C0BBB5)",
       }}

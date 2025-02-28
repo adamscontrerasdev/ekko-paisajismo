@@ -3,11 +3,13 @@ import React, { useState, useRef, useEffect } from "react";
 import Data from "../../../../public/Data/Servicios.json";
 import TiltedCard from "./TitledCard";
 import { useIsMobile } from "@/app/Elements/Hooks/ScreenSizeContext";
+import { usePathname } from "next/navigation";
 
 export const Servicios = () => {
   const { screenSize } = useIsMobile();
   const servicios = Data.servicios;
   const [focused, setFocused] = useState<string | null>(null);
+  const hash = window.location.hash;
   const [offsets, setOffsets] = useState<{
     [key: string]: { x: number; y: number };
   }>({});
@@ -107,6 +109,19 @@ export const Servicios = () => {
       }
     };
   }, [focused]);
+
+  useEffect(() => {
+    let lastHash = window.location.hash;
+
+    const checkHash = setInterval(() => {
+      if (window.location.hash !== lastHash) {
+        lastHash = window.location.hash;
+        setFocused("");
+      }
+    }, 500);
+
+    return () => clearInterval(checkHash);
+  }, []);
 
   return (
     <div
@@ -235,6 +250,14 @@ export const Servicios = () => {
           );
         })}
       </div>
+      <div
+        className="w-screen h-[calc(100vh-5rem)]  z-[9999999] fixed bottom-0 left-0"
+        style={{
+          pointerEvents: focused ? "auto" : "none",
+          zIndex: focused ? 99 : 1,
+        }}
+        onClick={() => setFocused(null)}
+      ></div>
     </div>
   );
 };
