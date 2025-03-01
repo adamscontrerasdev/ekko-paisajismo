@@ -1,3 +1,4 @@
+"use client"
 import { useIsMobile } from "@/app/Elements/Hooks/ScreenSizeContext";
 import Link from "next/link";
 import React from "react";
