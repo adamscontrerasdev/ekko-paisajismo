@@ -127,9 +127,7 @@ export const Servicios = () => {
       p-0 gap-5 overflow-hidden pt-[5rem]"
       id="servicios"
     >
-      <h1 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
-        Servicios
-      </h1>
+      <h1>Servicios</h1>
 
       <div
         ref={containerRef}
@@ -230,7 +228,7 @@ export const Servicios = () => {
               />
               <p
                 id={`description-${index}`} // Asignamos un ID único al <p>
-                className="absolute text-white xl:font-bold text-[.5rem] md:text-sm 2xl:text-lg pointer-events-none transition-all duration-500 md:pl-5 transform -z-10 w-[50vw] xl:w-[30vw] text-center md:text-left"
+                className="absolute text-white  pointer-events-none transition-all duration-500 md:pl-5 transform -z-10 w-[75vw] xl:w-[30vw] text-center md:text-left"
                 style={{
                   filter: movPicksToSeeDescrption.x
                     ? "blur(0px) grayscale(1)"

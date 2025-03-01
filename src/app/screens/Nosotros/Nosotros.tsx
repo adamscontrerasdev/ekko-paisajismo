@@ -21,8 +21,8 @@ export const Nosotros = () => {
           }`}
         >
           <div className="w-[70%]">
-            <h1 className="text-3xl font-bold md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-6xl">{title}</h1>
-            <p className="text-xs md:text-sm lg:text-base 2xl:text-lg">{text}</p>
+            <h1>{title}</h1>
+            <p>{text}</p>
           </div>
           <img
             src={image}

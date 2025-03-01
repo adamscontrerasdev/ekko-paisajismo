@@ -35,7 +35,7 @@ export const Inicio = () => {
 
   return (
     <div
-      className="relative h-[170vh] md:h-[200vh] overflow-hidden"
+      className="relative h-[150vh] md:h-[200vh] overflow-hidden"
       id="inicio"
       style={{
         background: "linear-gradient(to right, #C9C1B6, #E5E2DD, #C0BBB5)",
@@ -55,14 +55,14 @@ export const Inicio = () => {
         {/* Texto centrado */}
 
         {isMobile ? (
-          <h1
+            <h1
             className="absolute top-1/2  left-0 z-20 w-[60%] pl-5 text-3xl font-bold text-white"
             style={{
               transform: `translate(0, calc(-50% + ${smoothScroll}px))`,
             }}
-          >
-            Diseñamos espacios para conectárte con la naturaleza
-          </h1>
+            >
+            Diseñamos espacios que conectan con la naturaleza
+            </h1>
         ) : (
           <h1
             className={`z-20 absolute top-1/2 left-[35%] md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white`}
@@ -70,7 +70,7 @@ export const Inicio = () => {
               transform: `translate(-50%, calc(-50% + ${smoothScroll}px))`,
             }}
           >
-            Diseñamos espacios para conectárte con la naturaleza
+            Diseñamos espacios que conectan con la natureleza
           </h1>
         )}
 

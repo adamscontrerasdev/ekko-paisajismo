@@ -1,5 +1,5 @@
 import React from "react";
-import { Inicio, Nosotros, Servicios } from "./screens";
+import { Inicio, Nosotros, Servicios, Contacto } from "./screens";
 
 const page = () => {
   return (
@@ -7,6 +7,7 @@ const page = () => {
       <Inicio />
       <Nosotros />
       <Servicios />
+      <Contacto />
     </div>
   );
 };
