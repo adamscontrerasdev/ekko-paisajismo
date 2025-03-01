@@ -1,3 +1,4 @@
+import { useIsMobile } from "@/app/Elements/Hooks/ScreenSizeContext";
 import Link from "next/link";
 import React from "react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -5,7 +6,7 @@ import { IoIosMail } from "react-icons/io";
 
 export const Contacto = () => {
   // Detect if the user is on mobile
-  const isMobile = typeof window !== "undefined" && /Mobi|Android/i.test(navigator.userAgent);
+  const { isMobile } = useIsMobile();
 
   // Create a mapping of icon names to their components
   const icons = [
